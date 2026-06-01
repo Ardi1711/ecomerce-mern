@@ -54,7 +54,7 @@ export function ProductsPage() {
     }
 
     localStorage.setItem('cart', JSON.stringify(cart));
-    alert('✅ Proizvod je dodan u korpu!');
+    alert('✅  Produkti u shtua ne shporte!');
   };
 
   if (loading) return <div className="text-center mt-10">⏳ Po ngarkohet...</div>;
